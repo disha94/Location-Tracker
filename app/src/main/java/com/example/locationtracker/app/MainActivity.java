@@ -32,9 +32,6 @@ public class MainActivity extends Activity  {
         e2=(EditText)findViewById(R.id.editText2);
 
         b2=(Button)findViewById(R.id.button2);
-       // tx1=(TextView)findViewById(R.id.textView3);
-//        tx1.setVisibility(View.GONE);
-
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,7 +74,6 @@ public class MainActivity extends Activity  {
 
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
